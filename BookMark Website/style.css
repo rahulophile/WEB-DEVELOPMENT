@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: gold;
+}
+ul{
+    list-style-type: decimal;
+
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+a:hover{
+    text-decoration: underline;
+}
