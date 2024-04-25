@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Registration form for addmission in Government Enginerring College Vaishali">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Registration form for addmission in Government Enginerring College Vaishali"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Registration Form - GECV</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="post">
-        <input type="text" id="username" placeholder="Enter username">
-        <label for="username">Enter Your Username </label>
+      <label for="username">Enter Your Username</label>
+      <input type="text" id="username" placeholder="Enter username" />
+      <br />
+      <label for="gender">Enter Your Gender</label>
+      <br>
+      <label>
+        <input type="radio" name="gender" value="male"> Male
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="gender" value="female"> Female
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="gender" value="other"> Other
+      </label>
+      <label for="gender">Enter</label>
     </form>
-</body>
+  </body>
 </html>

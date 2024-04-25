@@ -1,0 +1,5 @@
+#username:hover{
+    transition: 2s;
+    border: solid rgb(25, 90, 230) 2px;
+    cursor: pointer;
+}
