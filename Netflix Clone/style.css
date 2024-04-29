@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homePage{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(Images/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+.navBox{
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.leftNavArea{
+    width: 150px;
+    /* margin: 25px 0px 0px 160px; */
+}
+.rightNavArea{
+    /* margin: 25px 160px 0px 0px; */
+}
+.language{
+    margin: 0px 20px 0px 20px;
+}
+select{
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color:black;
+}
+.language:focus{
+    outline: 2.5px solid white;
+}
+option{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+option:hover{
+    background-color: blue;
+}
+#sign-in-button{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
+#sign-in-button:hover{
+    opacity: 80%;
+    transition :0.2s;
+}
