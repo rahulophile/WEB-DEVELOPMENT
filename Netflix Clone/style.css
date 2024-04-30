@@ -1,65 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.homePage{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    background-image: url(Images/bg.jpg);
-    background-position: center center;
-    background-size: max(1200px, 100vw);
-    background-repeat: no-repeat;
-    position: relative;
-    opacity: 0.68;
-    position: absolute;
-    top: 0;
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-.navBox{
-    max-width: 80vw;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+.box{
+    background-color: grey;
+    height: 200px;
+    border: 5px solid red;
+
 }
-.leftNavArea{
-    width: 150px;
-    /* margin: 25px 0px 0px 160px; */
+.homePage {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url(Assets/Images/bg.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+  position: absolute;
+  top: 0;
 }
-.rightNavArea{
-    /* margin: 25px 160px 0px 0px; */
+.navBox {
+  max-width: 80vw;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
-.language{
-    margin: 0px 20px 0px 20px;
+.leftNavArea {
+  width: 150px;
 }
-select{
-    border-radius: 5px;
-    width: 120px;
-    height: 30px;
-    color: white;
-    background-color:black;
+.language {
+  margin: 0px 20px 0px 20px;
 }
-.language:focus{
-    outline: 2.5px solid white;
+select {
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: black;
 }
-option{
-    background-color: white;
-    color: black;
-    text-align: center;
+.language:focus {
+  outline: 2.5px solid white;
 }
-option:hover{
-    background-color: blue;
+option {
+  background-color: white;
+  color: black;
+  text-align: center;
 }
-#sign-in-button{
-    border: none;
-    border-radius: 5px;
-    width: 70px;
-    height: 30px;
-    background-color: red;
-    color: white;
+option:hover {
+  background-color: blue;
 }
-#sign-in-button:hover{
-    opacity: 80%;
-    transition :0.2s;
+#sign-in-button {
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+#sign-in-button:hover {
+  opacity: 80%;
+  transition: 0.2s;
 }
