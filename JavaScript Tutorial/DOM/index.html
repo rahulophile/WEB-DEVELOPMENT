@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="box">
+            I am a box
+        </div>
+    </div>
+    <script>
+        document.title = "Title changed"
+        console.log(document.title)
+        console.log(document.body)
+        document.body.style.backgroundColor = "Red";
+    </script>
 </body>
+
 </html>
