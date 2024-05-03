@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  border-radius: 10px;
+  height: 90vh;
+  width: 25vw;
+  background-color: white;
+  position: relative;
+}
+.photo {
+  /* position: absolute; */
+  /* top: 5px;
+  left: 5px;
+  right: 5px; */
+}
+img {
+  border-radius: 15px;
+  width: 100%;
+  height: 250px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title > h1{
+    font-size: 15px;
+    background-color: whitesmoke;
+    color: rgb(75, 68, 68);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+}
