@@ -1,45 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: black;
-    color: white;
-    font-family: "Poppins", sans-serif;
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-
 }
-#home{
+/* #home{
     display: flex;
+} */
+.left-sidebar {
+  width: 25vw;
+  height: 100vh;
+  padding: 10px;
 }
-.left-sidebar{
-    width: 25vw;
-    height: 100vh;
-    padding: 10px;
+.right-sidebar {
+  width: 75vw;
+  height: 100vh;
+  background-color: rgb(17, 17, 17);
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+  /*flex: 1; /* Allow the right box to grow to fill remaining space */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
-.right-sidebar{
-    width: 75vw;
-    height: 100vh;
-    background-color: rgb(17, 17, 17);
-    margin: 10px 10px 10px 0px;
-    border-radius: 10px;
+.upper-left {
+  height: 25%;
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
-.upper-left{
-    height: 25%;
-    background-color: rgb(17, 17, 17);
-    border-radius: 10px;
-    margin-bottom: 10px;
-    font-weight: 600;
+ul {
+  list-style: none;
+  text-decoration: none;
 }
-span > #search-btn:hover{
-    filter: brightness(100%);
+li {
+  text-decoration: none;
 }
-.lower-left{
-    height: 73.2%;
-    background-color: rgb(17, 17, 17);
-    border-radius: 10px;
-    margin-bottom: 10px;
+.upper-left span {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+.upper-left span:hover {
+  filter: brightness(100%);
+}
+.lower-left {
+  height: 73.2%;
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
