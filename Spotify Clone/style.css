@@ -58,3 +58,31 @@ li {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+.artist-list{
+  margin-top: 10px;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-auto-rows: 400px; */
+}
+.artist{
+  border: 2px solid white;
+  width: 23%;
+  height: 45vh;
+  cursor: pointer;
+}
+.artist img{
+  margin: 20px 20px 0px 20px; 
+  border-radius: 50%; 
+  width: auto ; 
+  height: 70%;
+}
+.artist span{
+  margin: 0px 0px 10px 20px;
+}
+.artist p{
+  filter: brightness(70%); margin: 0px 0px 20px 20px;
+}
+.artist:hover{
+  background-color: rgb(27, 27, 27);
+  border-radius: 10px;
+}
