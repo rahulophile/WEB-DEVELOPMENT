@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
   color: white;
@@ -68,6 +72,7 @@ nav {
     background-repeat: no-repeat;
 }
 #book-now-btn{
+  margin-top: 20px;
     background: transparent;
     border: none;
     border-radius: 20px;
@@ -75,4 +80,21 @@ nav {
     border: 2px solid white;
     color: white;
     background-color: rgba(128, 128, 128, 0.324);
+}
+#services{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+#services a{
+  text-decoration: none;
+  color: white;
+}
+#packages{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px ;
 }
