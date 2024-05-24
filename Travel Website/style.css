@@ -97,4 +97,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   gap: 50px ;
+} 
+#packages .p-list:hover{
+  border: 5px solid black;
 }
